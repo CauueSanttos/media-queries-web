@@ -1,0 +1,57 @@
+/* Global CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline:0;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    background: #dfdaf2 url('../images/background.svg') no-repeat center top;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+    font: 14px 'Roboto', sans-serif;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: #a393db;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: #866edb;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: #7159c1;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: #3a2e63;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-color: #191920;
+    }
+}
