@@ -32,12 +32,6 @@ body, input, button {
     }
 }
 
-@media only screen and (min-width: 600px) {
-    body {
-        background-color: #866edb;
-    }
-}
-
 @media only screen and (min-width: 768px) {
     body {
         background-color: #7159c1;
